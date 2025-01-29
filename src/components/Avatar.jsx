@@ -30,7 +30,7 @@ export function Avatar(props) {
     smoothMorphTarget,
     morphTargetSmoothing,
   } = useControls({
-    playAudio: false,
+    playAudio: true,
     headFollow: true,
     smoothMorphTarget: true,
     morphTargetSmoothing: 0.5,
